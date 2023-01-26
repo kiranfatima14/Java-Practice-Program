@@ -13,8 +13,12 @@ public class Practice3 {
         System.out.println("Enter the last number");
         int last = sc.nextInt();
 
+            int value = first -1;
+            int add = last - value;
+            add = add +last;
 
-        for (int k =first  , i=last ; k<19; k++) {
+
+        for (int k =first  , i=last ; k<add; k++) {
 
                 if(k<=last) {
                     int n = first++;
